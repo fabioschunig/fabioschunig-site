@@ -1,6 +1,6 @@
 # Site Pessoal
 
 ## Description
-Código do meu site pessoal feito em [WordPress](https://wordpress.org/)
+Nova versão do meu site pessoal
 
-Versão inicial feita em 2014
+Remoção do Wordpress e rescrito em PHP
