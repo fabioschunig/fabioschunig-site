@@ -3,4 +3,6 @@
 ## Description
 Nova versão do meu site pessoal
 
-Remoção do Wordpress e rescrito em PHP
+Remoção do Wordpress e refeito em PHP
+
+2023
