@@ -1,3 +1,14 @@
-<?php
+<!DOCTYPE HTML>
+<html>
 
-echo "Hello World";
+<head>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <?php
+    echo "Hello World";
+    ?>
+</body>
+
+</html>
