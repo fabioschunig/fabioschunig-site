@@ -5,4 +5,4 @@ Nova versão do meu site pessoal
 
 Remoção do Wordpress e refeito em PHP
 
-2023
+© 2014-2024
