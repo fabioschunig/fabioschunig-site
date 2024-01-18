@@ -1,9 +1,6 @@
-<!DOCTYPE HTML>
-<html>
-
-<head>
-    <title>Hello World</title>
-</head>
+<?php
+require_once __DIR__ . '/../src/views/layout/header.php';
+?>
 
 <body>
     <?php
@@ -11,4 +8,6 @@
     ?>
 </body>
 
-</html>
+<?php
+require_once __DIR__ . '/../src/views/layout/footer.php';
+?>
