@@ -3,9 +3,11 @@ require_once __DIR__ . '/../src/views/layout/header.php';
 ?>
 
 <body>
+
     <?php
-    echo "Hello World";
+    require_once __DIR__ . '/../src/views/site/main.php';
     ?>
+
 </body>
 
 <?php
