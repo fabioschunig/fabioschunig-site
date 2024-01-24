@@ -2,5 +2,9 @@
 <html>
 
 <head>
-    <title>Hello World</title>
+    <?php
+    $title = (isset($pageTitle) ? $pageTitle : "");
+    ?>
+
+    <title><?= $title ?></title>
 </head>

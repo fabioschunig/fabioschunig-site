@@ -1,4 +1,5 @@
 <?php
+$pageTitle = "Site pessoal";
 require_once __DIR__ . '/../src/views/layout/header.php';
 ?>
 
