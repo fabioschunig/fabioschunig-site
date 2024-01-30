@@ -1,7 +1,7 @@
 {
     "autoload": {
         "psr-4": {
-            "fabioschunig\\site\\": "src/"
+            "FabioSchunig\\Site\\": "src/"
         }
     }
 }
