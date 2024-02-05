@@ -2,6 +2,6 @@
 
 namespace FabioSchunig\Site\Controller;
 
-class SiteController
+class SiteController implements Controller
 {
 }
