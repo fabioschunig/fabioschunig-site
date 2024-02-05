@@ -1,5 +1,7 @@
 <?php
 
+use FabioSchunig\Site\Controller\ErrorController;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
 // get configured routes to controllers
@@ -9,9 +11,14 @@ $routes = require_once __DIR__ . '/../src/config/routes.php';
 $pathInfo = $_SERVER['PATH_INFO'] ?? '/';
 $httpMethod = $_SERVER['REQUEST_METHOD'];
 
-$controllerClass = $routes["$httpMethod|$pathInfo"];
-echo $controllerClass;
-$controller = new $controllerClass();
+// checks if route exists
+$key = "$httpMethod|$pathInfo";
+if (array_key_exists($key, $routes)) {
+    $controllerClass = $routes["$httpMethod|$pathInfo"];
+    $controller = new $controllerClass();
+} else {
+    $controller = new ErrorController();
+}
 
 var_dump($controller);
 exit;
