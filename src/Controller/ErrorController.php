@@ -2,6 +2,6 @@
 
 namespace FabioSchunig\Site\Controller;
 
-class ErrorController
+class ErrorController implements Controller
 {
 }
