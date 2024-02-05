@@ -19,6 +19,8 @@ if (array_key_exists($key, $routes)) {
 } else {
     $controller = new ErrorController();
 }
+/** @var Controller $controller */
+$controller->execute();
 
 var_dump($controller);
 exit;
