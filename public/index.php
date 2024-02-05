@@ -19,5 +19,8 @@ if (array_key_exists($key, $routes)) {
 } else {
     $controller = new ErrorController();
 }
+
+// all controllers must have the "execute" method
+
 /** @var Controller $controller */
 $controller->execute();
