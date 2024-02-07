@@ -2,7 +2,7 @@
 
 namespace FabioSchunig\Site\Controller;
 
-class SiteController implements Controller
+class SiteController extends BaseController implements Controller
 {
     public function execute(): void
     {
