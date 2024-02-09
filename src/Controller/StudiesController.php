@@ -2,10 +2,10 @@
 
 namespace FabioSchunig\Site\Controller;
 
-class StudiesController implements Controller
+class StudiesController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        echo "StudiesController execute";
+        $this->render('studies');
     }
 }
