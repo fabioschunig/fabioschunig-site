@@ -6,6 +6,6 @@ class ErrorController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        echo "ErrorController execute";
+        $this->render('error');
     }
 }
