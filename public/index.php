@@ -1,6 +1,7 @@
 <?php
 
 use FabioSchunig\Site\Controller\ErrorController;
+use FabioSchunig\Site\Model\Route;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -8,17 +9,12 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $routes = require_once __DIR__ . '/../src/config/routes.php';
 
 // get route
-$pathInfo = $_SERVER['PATH_INFO'] ?? '/';
-$httpMethod = $_SERVER['REQUEST_METHOD'];
-
-// checks if route exists
-$key = "$httpMethod|$pathInfo";
-if (array_key_exists($key, $routes)) {
-    $controllerClass = $routes["$httpMethod|$pathInfo"];
-    $controller = new $controllerClass();
-} else {
-    $controller = new ErrorController();
+$routeModel = new Route($_SERVER, $routes);
+$controllerClass = $routeModel->getRouteControllerClass();
+if (!$controllerClass) {
+    $controllerClass = ErrorController::class;
 }
+$controller = new $controllerClass();
 
 // all controllers must have the "execute" method
 
