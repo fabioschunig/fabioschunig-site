@@ -1,0 +1,6 @@
+.main-menu>li {
+    display: inline;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: lightgray;
+}
