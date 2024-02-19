@@ -6,6 +6,8 @@ class ErrorController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        $this->render('error');
+        $this->render('error', [
+            'pageTitle' => 'Error page',
+        ]);
     }
 }
