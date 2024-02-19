@@ -6,6 +6,8 @@ class StudiesController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        $this->render('studies');
+        $this->render('studies', [
+            'pageTitle' => 'Studies page',
+        ]);
     }
 }
