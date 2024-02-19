@@ -1,6 +1,6 @@
 <footer>
     <hr>
-    <p>2024 - Fabio Schunig</p>
+    <p>2014-2024 - Fabio Schunig</p>
 </footer>
 
 </html>
