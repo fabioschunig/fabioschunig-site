@@ -6,6 +6,8 @@ class ContactController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        $this->render('contact');
+        $this->render('contact', [
+            'pageTitle' => 'Contact page',
+        ]);
     }
 }
