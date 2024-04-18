@@ -6,8 +6,8 @@ class SiteController extends BaseController implements Controller
 {
     public function execute(): void
     {
-        $this->render('main', [
-            'pageTitle' => 'Main page',
+        $this->render('home', [
+            'pageTitle' => 'Home page',
         ]);
     }
 }
