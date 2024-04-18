@@ -1,3 +1,12 @@
-<?php
+<!DOCTYPE HTML>
+<html>
 
-echo "main file";
+<?php
+require_once './head.php';
+?>
+
+<?php
+require_once './footer.php';
+?>
+
+</html>
