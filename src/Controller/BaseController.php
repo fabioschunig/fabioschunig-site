@@ -14,14 +14,10 @@ abstract class BaseController implements Controller
             extract($params);
         }
 
-        require_once $this->viewPath . "layout/header.php";
+        require_once $this->viewPath . "layout/main.php";
 
-        echo '<body>';
-        require_once $this->viewPath . "site/menu.php";
-        require_once $this->viewPath . "site/$view.php";
-        echo '</body>';
-
-        require_once $this->viewPath . "layout/footer.php";
+        // require_once $this->viewPath . "site/menu.php";
+        // require_once $this->viewPath . "site/$view.php";
     }
 
     protected function render(string $view, array $params = null): void
