@@ -14,8 +14,10 @@ abstract class BaseController implements Controller
             extract($params);
         }
 
-        $content = "content";
-        // require_once $this->viewPath . "site/$view.php";
+        // HTML in buff
+        ob_start();
+        require_once $this->viewPath . "site/$view.php";
+        $content = ob_get_clean();
 
         require_once $this->viewPath . "layout/main.php";
     }
