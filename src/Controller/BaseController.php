@@ -6,7 +6,7 @@ abstract class BaseController implements Controller
 {
     private string $viewPath = __DIR__ . '/../views/';
 
-    private function buildHtml(string $view, array $params = null): void
+    protected function render(string $view, array $params = null): void
     {
         $pageTitle = "Site pessoal";
 
@@ -14,14 +14,9 @@ abstract class BaseController implements Controller
             extract($params);
         }
 
-        require_once $this->viewPath . "layout/main.php";
-
-        // require_once $this->viewPath . "site/menu.php";
+        $content = "content";
         // require_once $this->viewPath . "site/$view.php";
-    }
 
-    protected function render(string $view, array $params = null): void
-    {
-        $this->buildHtml($view, $params);
+        require_once $this->viewPath . "layout/main.php";
     }
 }
