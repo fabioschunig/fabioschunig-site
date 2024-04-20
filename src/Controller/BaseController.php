@@ -8,7 +8,7 @@ abstract class BaseController implements Controller
 
     protected function render(string $view, array $params = null): void
     {
-        $pageTitle = "Site pessoal";
+        $pageTitle = "Sem título";
 
         if ($params) {
             extract($params);
