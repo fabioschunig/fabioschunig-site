@@ -7,7 +7,7 @@ class SiteController extends BaseController implements Controller
     public function execute(): void
     {
         $this->render('home', [
-            'pageTitle' => 'Home page',
+            'pageTitle' => 'Site pessoal',
         ]);
     }
 }
