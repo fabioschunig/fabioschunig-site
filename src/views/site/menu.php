@@ -20,6 +20,6 @@
     </div>
 </nav>
 
-<div class="container painel">
-    Painel
+<div class="container-fluid painel">
+    <img src="images/optical-fiber.jpg" class="img-topo rounded-1" alt="optical fiber">
 </div>
