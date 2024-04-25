@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html class="h-100" data-bs-theme="dark">
+<html lang="pt-BR" class="h-100" data-bs-theme="dark">
 
 <?php
 require_once 'head.php';
