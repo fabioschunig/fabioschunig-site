@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg container fixed-top bg-secondary bg-gradient rounded-1">
-    <div class="container-fluid">
+    <div class="container">
         <a class="navbar-brand px-3" href=".">Início</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,6 +20,6 @@
     </div>
 </nav>
 
-<div class="container-fluid painel">
+<div class="container painel px-0">
     <img src="images/optical-fiber.jpg" class="img-topo rounded-1" alt="optical fiber">
 </div>
