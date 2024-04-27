@@ -1,3 +1,11 @@
+<?php
+
+use FabioSchunig\Site\Helpers\FileHelper;
+
+$images = FileHelper::imageFiles('images/');
+
+?>
+
 <nav class="navbar navbar-expand-lg container fixed-top bg-secondary bg-gradient rounded-1">
     <div class="container">
         <a class="navbar-brand px-3" href=".">Início</a>
@@ -20,6 +28,8 @@
     </div>
 </nav>
 
-<div class="container painel px-0">
-    <img src="images/optical-fiber.jpg" class="img-topo rounded-1" alt="optical fiber">
-</div>
+<?php if ($images) : ?>
+    <div class="container painel px-0">
+        <img src="images/<?= $images[array_rand($images)] ?>" class="img-topo rounded-1" alt="optical fiber">
+    </div>
+<?php endif; ?>
