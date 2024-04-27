@@ -2,7 +2,7 @@
 
 use FabioSchunig\Site\Helpers\FileHelper;
 
-$images = FileHelper::imageFiles('images/');
+$images = FileHelper::imageFiles('images/header/');
 
 ?>
 
