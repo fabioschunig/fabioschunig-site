@@ -2,7 +2,8 @@
 
 use FabioSchunig\Site\Helpers\FileHelper;
 
-$images = FileHelper::imageFiles('images/header/');
+$imagesDir = 'images/header/';
+$images = FileHelper::imageFiles($imagesDir);
 
 ?>
 
@@ -30,6 +31,6 @@ $images = FileHelper::imageFiles('images/header/');
 
 <?php if ($images) : ?>
     <div class="container painel px-0">
-        <img src="images/<?= $images[array_rand($images)] ?>" class="img-topo rounded-1" alt="optical fiber">
+        <img src="<?= $imagesDir . $images[array_rand($images)] ?>" class="img-topo rounded-1" alt="optical fiber">
     </div>
 <?php endif; ?>
