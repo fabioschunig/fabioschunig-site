@@ -5,6 +5,8 @@
 
     <title><?= $title ?></title>
 
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
     <meta charset="UTF-8">
     <meta name="description" content="Site pessoal Fabio Schunig">
     <meta name="keywords" content="software, developer">
