@@ -30,7 +30,7 @@ $images = FileHelper::imageFiles($imagesDir);
 </nav>
 
 <?php if ($images) : ?>
-    <div class="container painel px-0">
-        <img src="<?= $imagesDir . $images[array_rand($images)] ?>" class="img-topo rounded-1" alt="optical fiber">
+    <div class="container-fluid painel px-0">
+        <img src="<?= $imagesDir . $images[array_rand($images)] ?>" class="img-topo rounded-1" alt="header image">
     </div>
 <?php endif; ?>
