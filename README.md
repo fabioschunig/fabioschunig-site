@@ -1,40 +1,124 @@
-# Site Pessoal
+# 🚀 Site Pessoal - Fábio Schunig
 
-## Description
-Nova versão do meu site pessoal
+Site pessoal moderno e responsivo desenvolvido com **HTML5**, **CSS3** e **JavaScript vanilla**.
 
-Remoção do Wordpress e refeito em PHP
+## ✨ Características
 
-© 2014-2024
+- **Design Dark Moderno**: Interface elegante com tema escuro profissional
+- **Totalmente Responsivo**: Funciona perfeitamente em todos os dispositivos
+- **Performance Otimizada**: Carregamento rápido e animações suaves
+- **Efeitos Visuais**: Gradientes, glows e animações modernas
+- **Acessibilidade**: Seguindo as melhores práticas de acessibilidade web
+- **SEO Friendly**: Otimizado para mecanismos de busca
 
-## Development Environment
+## 🛠️ Tecnologias Utilizadas
 
-### PHP server
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização moderna com Flexbox e Grid
+- **JavaScript ES6+** - Interatividade e animações
+- **Font Awesome** - Ícones
+- **Google Fonts** - Tipografia (Inter + JetBrains Mono)
 
+## 📁 Estrutura do Projeto
+
+```
+fabioschunig-site/
+├── index.html              # Página principal
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Estilos principais
+│   ├── js/
+│   │   └── script.js       # JavaScript principal
+│   └── images/             # Imagens e assets
+├── README.md
+└── ...
+```
+
+## 🚀 Como Executar
+
+### Opção 1: Servidor Local Simples
 ```bash
-$ cd public
+# Navegue até a pasta do projeto
+cd fabioschunig-site
+
+# Inicie um servidor HTTP simples (Python 3)
+python -m http.server 8000
+
+# Ou com Node.js (se tiver o http-server instalado)
+npx http-server
+
+# Acesse: http://localhost:8000
 ```
 
-```bash
-$ php -S localhost:8080
+### Opção 2: Live Server (VS Code)
+1. Instale a extensão "Live Server" no VS Code
+2. Clique com o botão direito no `index.html`
+3. Selecione "Open with Live Server"
+
+### Opção 3: Servidor Web Tradicional
+Coloque os arquivos em qualquer servidor web (Apache, Nginx, etc.)
+
+## 🎨 Personalização
+
+### Cores e Tema
+Edite as variáveis CSS no início do arquivo `style.css`:
+
+```css
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #f59e0b;
+    --accent-color: #10b981;
+    /* ... outras variáveis */
+}
 ```
 
-### Apache server
+### Conteúdo
+1. **Informações Pessoais**: Edite o HTML diretamente
+2. **Projetos**: Atualize a seção portfolio com seus projetos
+3. **Experiências**: Modifique a timeline na seção experience
+4. **Contato**: Atualize suas informações de contato
 
-Editar o arquivo http.conf (usando LAMPP por exemplo)
+### Imagens
+Adicione suas imagens na pasta `assets/images/`:
+- `profile.jpg` - Sua foto de perfil (300x300px)
+- `project1.jpg` até `project4.jpg` - Screenshots dos projetos (400x250px)
+- `favicon.ico` - Ícone do site
 
-```bash
-$ nano /opt/lampp/apache2/conf/httpd.conf
-```
+## 📱 Seções do Site
 
-Adicionar um _Alias_ para o diretório **public**
+1. **Hero/Início** - Apresentação principal com animações
+2. **Sobre** - Informações pessoais e habilidades
+3. **Portfólio** - Projetos com filtros interativos
+4. **Experiência** - Timeline profissional
+5. **Contato** - Formulário e informações de contato
 
-```
-Alias /fabioschunig "/path/to/repository/fabioschunig-site/public"
-<Directory "/path/to/repository/fabioschunig-site/public">
-    Options Indexes FollowSymLinks Includes ExecCGI
-    AllowOverride All
-    Require all granted
-    Allow from all
-</Directory>
-```
+## 🎯 Funcionalidades
+
+- ✅ Navegação suave entre seções
+- ✅ Menu mobile responsivo
+- ✅ Filtros de portfólio
+- ✅ Formulário de contato funcional
+- ✅ Animações on scroll
+- ✅ Botão scroll to top
+- ✅ Efeitos de hover e transições
+- ✅ Loading states
+- ✅ Notificações de feedback
+
+## 🔧 Próximas Melhorias
+
+- [ ] Integração com serviço de email para formulário
+- [ ] Blog/artigos
+- [ ] Modo escuro
+- [ ] PWA (Progressive Web App)
+- [ ] Múltiplos idiomas
+- [ ] Analytics integration
+
+## 📞 Contato
+
+- **Email**: contato@fabioschunig.com
+- **LinkedIn**: [Seu LinkedIn]
+- **GitHub**: [Seu GitHub]
+
+---
+
+© 2024 Fábio Schunig. Todos os direitos reservados.

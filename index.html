@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábio Schunig - Desenvolvedor & Designer</title>
+    <meta name="description" content="Site pessoal de Fábio Schunig - Desenvolvedor Full Stack e Designer com experiência em projetos inovadores">
+    <meta name="keywords" content="desenvolvedor, designer, full stack, portfolio, Fábio Schunig">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">FS</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#experience" class="nav-link">Experiência</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="gradient-text">Fábio Schunig</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Desenvolvedor Full Stack & Designer apaixonado por criar experiências digitais incríveis
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="assets/images/profile.jpg" alt="Fábio Schunig" id="profile-img">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-icon" style="--delay: 0s">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 1s">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 2s">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <div class="floating-icon" style="--delay: 3s">
+                                <i class="fab fa-python"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Conheça um pouco da minha jornada</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Sou um desenvolvedor apaixonado por tecnologia com mais de X anos de experiência 
+                        criando soluções digitais inovadoras. Especializado em desenvolvimento full stack, 
+                        combino habilidades técnicas sólidas com um olhar criativo para design.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <div class="skills">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">CSS3</span>
+                                <span class="skill-tag">HTML5</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <div class="skills">
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Ferramentas</h3>
+                            <div class="skills">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">Photoshop</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfólio</h2>
+                <p class="section-subtitle">Alguns dos meus projetos favoritos</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project1.jpg" alt="Projeto 1">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>E-commerce Moderno</h3>
+                                <p>Plataforma completa de vendas online</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project2.jpg" alt="Projeto 2">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>App de Produtividade</h3>
+                                <p>Aplicativo para gestão de tarefas</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project3.jpg" alt="Projeto 3">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Identidade Visual</h3>
+                                <p>Branding completo para startup</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="assets/images/project4.jpg" alt="Projeto 4">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Dashboard Analytics</h3>
+                                <p>Painel de controle com visualização de dados</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experiência</h2>
+                <p class="section-subtitle">Minha trajetória profissional</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Desenvolvedor Full Stack Senior</h3>
+                        <h4>Tech Company Inc.</h4>
+                        <p>Liderança técnica em projetos de grande escala, desenvolvimento de arquiteturas escaláveis e mentoria de desenvolvedores júnior.</p>
+                        <div class="timeline-skills">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>AWS</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Desenvolvedor Frontend</h3>
+                        <h4>Digital Agency</h4>
+                        <p>Desenvolvimento de interfaces modernas e responsivas, otimização de performance e implementação de melhores práticas de UX.</p>
+                        <div class="timeline-skills">
+                            <span>Vue.js</span>
+                            <span>JavaScript</span>
+                            <span>SASS</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Desenvolvedor Web</h3>
+                        <h4>Startup Innovation</h4>
+                        <p>Desenvolvimento de aplicações web completas, desde o conceito até a implementação, trabalhando em equipes ágeis.</p>
+                        <div class="timeline-skills">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>jQuery</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-subtitle">Entre em contato para discutir seu próximo projeto</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contato@fabioschunig.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>+55 (11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Enviar Mensagem</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Fábio Schunig. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

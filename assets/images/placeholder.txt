@@ -1,0 +1,20 @@
+# Imagens necessárias para o site
+
+Adicione as seguintes imagens nesta pasta:
+
+## Obrigatórias:
+- profile.jpg (300x300px) - Sua foto de perfil
+- project1.jpg (400x250px) - Screenshot do projeto 1
+- project2.jpg (400x250px) - Screenshot do projeto 2  
+- project3.jpg (400x250px) - Screenshot do projeto 3
+- project4.jpg (400x250px) - Screenshot do projeto 4
+
+## Opcional:
+- favicon.ico - Ícone do site
+- logo.png - Logo pessoal (se houver)
+
+## Dicas:
+- Use imagens otimizadas (WebP quando possível)
+- Mantenha as proporções recomendadas
+- Comprima as imagens para melhor performance
+- Use nomes descritivos para os projetos
