@@ -16,8 +16,15 @@ Site pessoal moderno e responsivo desenvolvido com **HTML5**, **CSS3** e **JavaS
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilização moderna com Flexbox e Grid
 - **JavaScript ES6+** - Interatividade e animações
-- **Font Awesome** - Ícones
+- **Font Awesome** - Ícones (incluindo Laravel, PHP, React)
 - **Google Fonts** - Tipografia (Inter + JetBrains Mono)
+
+## 💼 Stack Técnica Apresentada
+
+- **Frontend**: JavaScript, TypeScript, React, Vue.js, Next.js, Tailwind CSS, SASS
+- **Backend**: PHP, Laravel, Symfony, Node.js, MySQL, PostgreSQL, Redis
+- **DevOps**: Docker, AWS, Linux, Nginx, Git, Composer
+- **Design**: Figma, Adobe XD, Photoshop, Illustrator
 
 ## 📁 Estrutura do Projeto
 

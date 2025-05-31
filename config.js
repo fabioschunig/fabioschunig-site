@@ -24,42 +24,43 @@ const siteConfig = {
 
     // Habilidades por Categoria
     skills: {
-        frontend: ["JavaScript", "React", "Vue.js", "CSS3", "HTML5"],
-        backend: ["PHP", "Python", "Node.js", "MySQL", "PostgreSQL"],
-        tools: ["Git", "Docker", "AWS", "Figma", "Photoshop"]
+        frontend: ["JavaScript", "TypeScript", "React", "Vue.js", "Next.js", "CSS3", "SASS", "Tailwind CSS", "HTML5"],
+        backend: ["PHP", "Laravel", "Symfony", "Node.js", "Python", "Django", "MySQL", "PostgreSQL", "MongoDB", "Redis"],
+        tools: ["Git", "Docker", "AWS", "Linux", "Nginx", "Apache", "Composer", "npm", "Webpack", "Vite"],
+        design: ["Figma", "Adobe XD", "Photoshop", "Illustrator", "Sketch"]
     },
 
     // Projetos do Portfólio
     projects: [
         {
             id: 1,
-            title: "E-commerce Moderno",
-            description: "Plataforma completa de vendas online",
+            title: "E-commerce Laravel",
+            description: "Plataforma completa de vendas online com Laravel",
             category: "web",
             image: "assets/images/project1.jpg",
             demoUrl: "https://demo-link.com",
             githubUrl: "https://github.com/seu-usuario/projeto1",
-            technologies: ["React", "Node.js", "MongoDB"]
+            technologies: ["Laravel", "PHP", "MySQL", "Vue.js", "Tailwind CSS"]
         },
         {
             id: 2,
-            title: "App de Produtividade",
-            description: "Aplicativo para gestão de tarefas",
-            category: "mobile",
+            title: "Sistema de Gestão",
+            description: "ERP completo para pequenas empresas",
+            category: "web",
             image: "assets/images/project2.jpg",
             demoUrl: "https://demo-link.com",
             githubUrl: "https://github.com/seu-usuario/projeto2",
-            technologies: ["React Native", "Firebase"]
+            technologies: ["PHP", "Symfony", "PostgreSQL", "Docker"]
         },
         {
             id: 3,
-            title: "Identidade Visual",
-            description: "Branding completo para startup",
-            category: "design",
+            title: "API RESTful",
+            description: "API robusta para aplicações mobile",
+            category: "web",
             image: "assets/images/project3.jpg",
-            demoUrl: "https://behance.net/projeto3",
-            githubUrl: null,
-            technologies: ["Photoshop", "Illustrator", "Figma"]
+            demoUrl: "https://demo-link.com",
+            githubUrl: "https://github.com/seu-usuario/projeto3",
+            technologies: ["PHP", "Laravel", "JWT", "Redis", "MySQL"]
         },
         {
             id: 4,
@@ -69,7 +70,7 @@ const siteConfig = {
             image: "assets/images/project4.jpg",
             demoUrl: "https://demo-link.com",
             githubUrl: "https://github.com/seu-usuario/projeto4",
-            technologies: ["Vue.js", "D3.js", "Python"]
+            technologies: ["React", "PHP", "Chart.js", "MySQL"]
         }
     ],
 
@@ -80,24 +81,24 @@ const siteConfig = {
             title: "Desenvolvedor Full Stack Senior",
             company: "Tech Company Inc.",
             period: "2022 - Presente",
-            description: "Liderança técnica em projetos de grande escala, desenvolvimento de arquiteturas escaláveis e mentoria de desenvolvedores júnior.",
-            skills: ["React", "Node.js", "AWS", "Docker"]
+            description: "Liderança técnica em projetos de grande escala, desenvolvimento de arquiteturas escaláveis com PHP/Laravel e React. Mentoria de desenvolvedores júnior e implementação de melhores práticas.",
+            skills: ["Laravel", "PHP", "React", "AWS", "Docker", "MySQL"]
         },
         {
             id: 2,
-            title: "Desenvolvedor Frontend",
-            company: "Digital Agency",
+            title: "Desenvolvedor PHP Pleno",
+            company: "Digital Solutions",
             period: "2020 - 2022",
-            description: "Desenvolvimento de interfaces modernas e responsivas, otimização de performance e implementação de melhores práticas de UX.",
-            skills: ["Vue.js", "JavaScript", "SASS", "Figma"]
+            description: "Desenvolvimento de sistemas web robustos com Laravel e Symfony. Criação de APIs RESTful, integração com serviços externos e otimização de performance de banco de dados.",
+            skills: ["PHP", "Laravel", "Symfony", "MySQL", "Redis", "Vue.js"]
         },
         {
             id: 3,
-            title: "Desenvolvedor Web",
-            company: "Startup Innovation",
+            title: "Desenvolvedor Web Júnior",
+            company: "Web Agency",
             period: "2018 - 2020",
-            description: "Desenvolvimento de aplicações web completas, desde o conceito até a implementação, trabalhando em equipes ágeis.",
-            skills: ["PHP", "MySQL", "jQuery", "Bootstrap"]
+            description: "Desenvolvimento de sites e sistemas web com PHP vanilla e frameworks. Criação de interfaces responsivas e integração com CMSs como WordPress.",
+            skills: ["PHP", "MySQL", "JavaScript", "WordPress", "Bootstrap"]
         }
     ],
 
